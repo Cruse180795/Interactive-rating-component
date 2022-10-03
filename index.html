@@ -12,9 +12,42 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
 
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+
     <title>Interactive Rating Component | Frontend Mentor</title>
 </head>
 <body>
-    
+    <main class="main-container">
+        <section class="card-front">
+
+            <div class="star">
+                <img src="/images/icon-star.svg" alt="" class="star-img">
+            </div>
+
+            <h1 class="front-heading">How did we do?</h1>
+
+            <p class="front-body">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+
+            <ul class="ratings">
+                <li><button class="rate-btn">1</button></li>
+                <li><button class="rate-btn">2</button></li>
+                <li><button class="rate-btn">3</button></li>
+                <li><button class="rate-btn">4</button></li>
+                <li><button class="rate-btn">5</button></li>
+            </ul>
+
+            <button id="btn-submit">Submit</button>
+
+        </section>
+
+        <section class="card-back">
+            <div class="illustration">
+                <img src="/images/illustration-thank-you.svg" alt="">
+            </div>
+            <p id="rating">You selected 5 out of 5</p>
+            <h2 class="back-heading">Thank you!</h2>
+            <p class="back-body">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+        </section>
+    </main>
 </body>
 </html>

@@ -24,3 +24,147 @@ body{
     background-color: var(--very-dark-blue);
     color: var(--white);
 }
+
+li{
+    list-style: none;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*Mobile first card front styles*/
+.card-front{
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    width: 325px;
+    height: 354px;
+    border-radius: 15px;
+    padding: 24px 22px;
+    display: none;
+}
+.star{
+    background-color: var(--dark-blue);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 19px;
+}
+
+.star-img{
+    width: 14px;
+    height: 14px;
+}
+
+.front-heading{
+    margin-bottom: 19px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.front-body{
+    margin-bottom: 19px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: var(--light-grey);
+}
+
+.ratings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 19px;
+}
+
+.rate-btn{
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: 0.17px;
+    color: var(--medium-grey);
+    background-color: var(--dark-blue);
+    cursor: pointer;
+    transition: all ease-in-out .5s;
+}
+
+.rate-btn:hover{
+    background-color: var(--primary-orange);
+    color: var(--white);
+}
+
+.rate-btn:focus{
+    background-color: var(--medium-grey);
+    color: var(--white);
+}
+
+#btn-submit{
+    background-color: var(--primary-orange);
+    border: none;
+    text-transform: uppercase;
+    color: var(--white);
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.87px;
+    padding: 15px 110px;
+    border-radius: 22.5px;
+    cursor: pointer;
+    transition: all ease-in-out .5s;
+}
+
+#btn-submit:hover{
+    margin-top: 5px;
+    background-color: var(--white);
+    color: var(--primary-orange);
+}
+
+/*Mobile first card back styles*/
+
+.card-back{
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    width: 325px;
+    height: 360px;
+    border-radius: 15px;
+    padding: 24px 22px;
+    text-align: center;
+    display: block;
+}
+
+.illustration{
+    margin: 5px 0 19px 0;
+    text-align: center;
+}
+
+#rating{
+    color: var(--primary-orange);
+    background-color: var(--dark-blue);
+    display: inline-block;
+    padding: 7px 15px 5px 15px;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 19px;
+}
+
+.back-heading{
+    margin-bottom: 19px;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.back-body{
+    color: var(--light-grey);
+    line-height: 22px;
+    font-size: 14px;
+}
