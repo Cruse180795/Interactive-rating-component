@@ -1,2 +1,2 @@
-# Interactive-rating-componet
+# Interactive-rating-component
 Frontend Mentor Challenge
