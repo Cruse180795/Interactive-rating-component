@@ -1,3 +1,7 @@
 Javascript 
 
 -> When submit button click on .card-front, hide the .card-front section and display .card-back   section.
+
+
+-> Loop through .rate-btns and grab the inner HTML of the selected button.
+-> Use the selected buttons number to replace the placeholder number on .card-back.
